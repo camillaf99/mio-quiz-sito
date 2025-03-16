@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marta finirà in galera?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Schermata iniziale -->
+  <div id="startContainer" class="start-container">
+    <h1>Benvenuta a: "Marta finirà in galera?" creato da Cami per te!</h1>
+    <img src="https://insultiluminosi.it/cdn/shop/files/pronto4.jpg?v=1698332020&width=823" alt="Immagine Iniziale">
+    <button id="startButton">Inizia il test</button>
+  </div>
+  
+  <!-- Contenitore del quiz -->
+  <div class="quiz-container hidden" id="quizContainer">
+    <h1>Marta finirà in galera?</h1>
+    <div class="images">
+      <img id="questionImage1" src="" alt="Immagine 1 della domanda">
+      <img id="questionImage2" src="" alt="Immagine 2 della domanda">
+    </div>
+    <p id="questionText"></p>
+    <div class="options" id="optionsContainer"></div>
+    <p id="result" class="hidden"></p>
+    <div id="resultProfile" class="hidden">
+      <h2 id="profileTitle"></h2>
+      <img id="profileImage" src="" alt="Risultato">
+      <p id="profileCaption"></p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
